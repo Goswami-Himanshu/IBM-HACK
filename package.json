@@ -1,0 +1,19 @@
+{
+  "name": "bobspec-provenance",
+  "version": "1.0.0",
+  "description": "BobSpec-Provenance: IBM Bob 2.0 Autonomous Compliance Verifier + Tamper-Evident Audit Ledger MCP Server",
+  "main": "mcp_server.js",
+  "scripts": {
+    "start": "node mcp_server.js",
+    "mcp": "node mcp_server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.22.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["mcp", "compliance", "audit", "provenance", "ibm", "bob", "watsonx"],
+  "license": "MIT"
+}
